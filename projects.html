@@ -1,0 +1,19 @@
+--- 
+layout: page 
+title: Hacking projects
+---
+<section id="hacking-projects">
+    {% assign projectVersions = site.projects | sort: 'modified_date' %}
+    {% assign latestProjects = projectVersions.first %}    
+    <p>These are the selected hacking projects</p>
+    <ul>
+        {% for project in latestProjects.project_list %}
+        <li>
+            <a href="{{project.link}}"
+                target="_blank"><strong>{{project.project_number}}</strong> - {{project.title}}
+                <i class="fab fa-github" aria-hidden="true"></i>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</section>

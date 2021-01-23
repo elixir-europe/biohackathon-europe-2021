@@ -1,0 +1,6 @@
+---
+background: |
+    Following the success of the ELIXIR [BioHackathon2018](https://2018.biohackathon-europe.org/) and [BioHackathon2019](https://2019.biohackathon-europe.org/), and building on the [BioHackathons](http://www.biohackathon.org/) organised by National Bioscience Database Center ([NBDC](https://biosciencedbc.jp/?lng=en)) and Database Center for Life Science ([DBCLS](https://dbcls.rois.ac.jp/index-en.html)), we are planning to run BioHackathon2020 in Barcelona on 9th-13th Nov 2020. We hope to build on our success and encourage more ELIXIR and non-ELIXIR participants to take part and also have industry engagement.
+scope: |
+    BioHackathon activities are driven by practical sessions where people gather, discuss, and implement ideas/projects during intensive and productive coding sessions. The topics will be aligned to challenges proposed by [ELIXIR platforms](https://elixir-europe.org/platforms) (data, tools, compute, interoperability and training), [ELIXIR communities](https://elixir-europe.org/communities) (Human Data, Rare Diseases, Marine Metagenomics, Plant Science, Metabolomics and Proteomics), and a set of common challenges proposed by the sister [BioHackathon](http://www.biohackathon.org) organised in Japan.
+---
