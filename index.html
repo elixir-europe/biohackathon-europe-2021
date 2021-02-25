@@ -5,9 +5,9 @@ layout: landing
 <!-- Banner -->
 <section id="banner">
 	<!-- <div class="video" onclick="location.href='{{ site.baseurl }}/about.html'" style="cursor:pointer">
-		<iframe width="100%" height="100%" 
-		src="https://www.youtube.com/embed/RNIInb72-z0?autoplay=1&controls=0&showinfo=0&loop=1&mute=1&playlist=RNIInb72-z0" 
-		frameborder="0" 
+		<iframe width="100%" height="100%"
+		src="https://www.youtube.com/embed/RNIInb72-z0?autoplay=1&controls=0&showinfo=0&loop=1&mute=1&playlist=RNIInb72-z0"
+		frameborder="0"
 		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div> -->
 	<div class="inner">
@@ -15,52 +15,77 @@ layout: landing
 			<div class="title">
 				<a href="{{ site.baseurl }}/index.html"><img src="images/logos/bhlogolightnotx.png" alt="BioHackathon logo" /></a>
 				<h2><a href="{{ site.baseurl }}/about.html">{{ site.title }}</a></h2>
-				<p>9-13 November 2020</p>
-				<p>We are going virtual!</p>
+				<p>8 - 12 November 2021</p>
+
 			</div>
 			<ul class="actions">
 				<li>
-					<a href="{{ site.baseurl }}/registration.html" class="button special">REGISTER NOW until 18 September 2020 and get the T-shirt</a>
-				</li>	
+					<h3>Call for proposals will open soon!</h3>
+					<p>Bookmark this page and follow us on Twitter to keep up to date:<br /> <a href="https://twitter.com/biohackathoneu">@biohackathoneu</a><br /> <a href="https://twitter.com/hashtag/BioHackEU21">#BioHackEU21</a></p>
+				</li>
 			</ul>
-			<ul class="actions">
+			<!--<ul class="actions">
 				<li>
 					<a href="{{ site.baseurl }}/projects.html" class="button special">PROJECTS</a>
-				</li>				
-			</ul>			
+				</li>
+			</ul> -->
 		</div>
 		<a href="#landing-background" class="more scrolly">Learn More</a>
-	</div>	  
+	</div>
 </section>
 
 <!-- One -->
 <section id="landing-background" class="wrapper style3 special">
 	<div class="inner">
-		<header class="major">
+		<header class="major mb-2">
 			<h2>Background</h2>
+			</header>
 			<div class="row">
 				<div class="10u 12u$(medium)">
 					<p>{{ latest_landing.background | markdownify }}</p>
 				</div>
 				<div class="2u 12u$(medium)">
-					<div class="image fit">
-						<img src="images/logos/elixir_logo_white.png" alt="" />
+					<div class="image fit vertical-align-middle">
+						<a href="https://elixir-europe.org"><img src="images/logos/elixir_logo_white.png" alt="ELIXIR logo"/></a>
 					</div>
-				</div>				
+				</div>
 			</div>
-		</header>
+
 	</div>
 </section>
 
 <!-- One -->
-<section class="wrapper style1">
+<section class="wrapper spotlight">
 	<div class="inner">
-		<header class="major">
-			<h2>Going virtual</h2>
-			<p>This year, we bring you the BioHackathon in a virtual fashion. This 9-13 November, we will put online platforms to the test to bring you a fun and productive event — we will be using <a href="https://remo.co/">Remo</a> & SLACK!</p>
-			<p>We believe the new format will allow everyone to participate in the BioHackathon and deliver tangible outcomes from the selected projects.</p>
-			<p>While the BioHackathon is going virtual, seats are limited and registration is based on a first-come, first-served basis. Don’t miss your chance to attend this year and register before 18 September 2020.</p>
-		</header>
+			<div class="row">
+				<div class="4u 12u$(medium)">
+					<img src="images/ryota-yamanaka.jpg" alt="Ryota Yamanaka" style="width: 100%;" loading="lazy" />
+					<p class="small line-height-1 mb-2 mt-3">&ldquo;This hackathon terrifically accelerates our open-source projects, breaking all the barriers between biology and computing, academia and industry, and distances among great participants!&rdquo;</p>
+						<p class="small font-italic line-height-1 muted-color">- Ryota Yamanaka<br /> (Oracle, Thailand, Regional Product Manager Asia-Pacific)</p>
+				</div>
+				<div class="4u 12u$(medium)">
+					<img src="images/helena-rasche.jpg" alt="Helena Rasche"  style="width: 100%;" loading="lazy" />
+					<p class="small line-height-1 mb-2 mt-3">&ldquo;BioHackathon was so great! Everyone we needed to talk to was here, and we had some really great discussion and planning sessions for some of our projects that will hopefully carry forward into the future. It's been a super productive week!&rdquo;</p>
+						<p class="small font-italic line-height-1 muted-color">- Helena Rasche<br /> (University of Freiburg)</p>
+				</div>
+				<div class="4u 12u$(medium)">
+					<img src="images/niall-beard.jpg" alt="Niall Beard" style="width: 100%;" loading="lazy" />
+					<p class="small line-height-1 mb-2 mt-3">&ldquo;An unmissable opportunity to accelerate development, initiate collaborations, broaden your professional network, and gorge on cheese and wine.&rdquo;</p>
+						<p class="small font-italic line-height-1 muted-color">- Niall Beard<br /> (Senior Research Software Engineer and Training Manager, University of Manchester)</p>
+				</div>
+			</div>
+		</div>
+</section>
+
+<!-- One -->
+<section class="wrapper spotlight style4" id="landing-remote-access">
+	<div class="inner">
+			<h2>Remote access</h2>
+			<p>This year we are planning to hold the BioHackathon in Barcelona, with remote access for those who cannot attend in person. We will make the final decision on whether the event will have an in-person meeting by 1 August.  We prefer face-to-face participation, but if the circumstances do not allow it then remote access will be available. Remote access will be organised by each project leader. We will provide a live stream of reporting sessions.</p>
+
+	    <p>We believe the new format will allow everyone to participate in the BioHackathon and deliver tangible outcomes from the selected projects.</p>
+
+	    <p>The BioHackathon Europe meeting has limited space for face-to-face participation. The registration is based on a first-come, first-served basis. Don’t miss your chance to attend this year and register before 17 September 2021.</p>
 	</div>
 </section>
 
@@ -81,13 +106,10 @@ layout: landing
 		</div>
 		<div class="content">
 			<h2>Goals</h2>
-			<ul>
-				<li>Advance the development of an open-source infrastructure for data integration to accelerate scientific innovation. We will focus on technology implementations such as FAIR, identifiers, metadata standards, ontologies and metadata catalogues that support the operations across <a href="https://www.elixir-europe.org/platforms" target="_blank">ELIXIR platforms</a>
-					(Compute, Data, Interoperability, Tools, and Training)</li>
-				<li>Engage the technical people in the bioinformatics community inside and outside ELIXIR to work together on
-					topics of common
-					interest aligned to ELIXIR activities</li>
-				<li>Strengthen the interactions with ELIXIR platforms and communities to establish and reinforce collaborations through hands-on programming activities.</li>
+			<ul class="x-bottom-padding">
+				<li>Advance the development of an open source infrastructure for data integration to accelerate scientific innovation. We will focus on technology implementations such as FAIR, identifiers, metadata standards, ontologies and metadata catalogues that support the operations across <a href="https://www.elixir-europe.org/platforms" target="_blank">ELIXIR Platforms</a> (Compute, Data, Interoperability, Tools, and Training).</li>
+				<li>Engage the technical people in the bioinformatics community inside and outside ELIXIR to work together on topics of common interest aligned to ELIXIR activities</li>
+				<li>Strengthen the interactions with ELIXIR Platforms and Communities to establish and reinforce collaborations through hands-on programming activities.</li>
 			</ul>
 		</div>
 	</section>
@@ -97,8 +119,10 @@ layout: landing
 		</div>
 		<div class="content">
 			<h2>Expenses and funding</h2>
-			<p>Registration for the BioHackathon is free.</p>
-			<a href="{{ site.baseurl }}/registration.html" class="button special">REGISTER</a>
+			<p>Registration for the BioHackathon is free, however you will have to pay your own travel, food and accommodation expenses. ELIXIR will pay expenses for a limited number of participants for accepted projects. More information will be published as it becomes available (e.g. all for proposals, accepted proposals, registration for invitees, reimbursement process). </p>
+			<p>Please be aware that F2F participants must stay at the venue to optimise the value of on-site interaction and collaboration.</p>
+			<!--<a href="{{ site.baseurl }}/registration.html" class="button special">REGISTRATION</a>-->
+			<p class="font-weight-bold">Registration will open in June 2021.</p>
 		</div>
 	</section>
 	<section id="landing-benefit" class="spotlight">
@@ -122,29 +146,54 @@ layout: landing
 			<ul>
 				<li>Learning collaboratively with peers</li>
 				<li>Sharing interests to organise or grow communities</li>
+				<li>Meet and make new contacts</li>
 			</ul>
 		</div>
 	</section>
 </section>
 
 <!-- Three -->
-<section id="landing-processprop" class="wrapper style3 special">
+<section id="landing-processprop" class="wrapper style4 spotlight">
 	<div class="inner">
 		<h2>Hacking Topics</h2>
-		<p>Discover all selected topics</p>
-		<a href="{{ site.baseurl }}/projects.html" class="button special">PROJECTS</a>
-		</br>
+		<h3 class="mt-0">Call for proposals will open 1 March!</h3>
+<p>Selected hacking topics will be published here once reviewed by the Biohackathon Organising Committee. We are expecting topics to align well with the current interest of life science communities at large. These may include standardised workflows, containerisation, schemas and identifiers, ontology tooling, metadata validation, and training. We encourage submissions of hacking topics from the public and private sector.</p>
+<h3>Call for Proposals</h3>
+<p>We ask the project leads to submit a proposal through EasyChair. The proposals will include the following:</p>
+<ul>
+<li>A project description, no longer than 200 words </li>
+<li>Which ELIXIR Platforms/Communities the project aligns to </li>
+<li>Who the leads are, including one person who is nominated as primary lead and main point of contact for communications </li>
+<li>If all project leads cannot attend in person, the person they nominate to help facilitate a hybrid project at the venue </li>
+<li>Expected outcomes </li>
+<li>Number of people/Nodes that will be expected to participate</li>
+<li>Any people (two maximum) from Europe you would like to invite who are critical to the success of the project (name /institute/email)</li>
+<li>Expected outcome and timeframe </li>
+<li>The repository where the code will reside</li>
+</ul>
+<p>We expect the projects to be submitted to BiohackrXiv within six months after end of the Biohackathon, wherever possible.</p>
+<a class="button special" href="{{ site.baseurl }}/ipdiscl.html">IP Disclaimer</a>
 	</div>
+	</section>
+	<!-- Three -->
+	<section id="landing-industry" class="wrapper style3">
 	<div class="inner">
+		<div class="row">
+			<div class="8u 12u$(medium)">
 		<h2><i class="fas fa-industry"></i> Industry engagement</h2>
-		<p>People from diverse companies are encouraged to participate. If you have any questions, for example regarding the scope of the event, contact Kathi Lauer (ELIXIR Industry Officer)</p>
-		<a href="mailto:katharina.lauer@elixir-europe.org" class="button special">Contact</a>
-		<a href="{{ site.baseurl }}/images/BioHackathon_Industry_Flyer.pdf" target="_blank" class="button special">More info</a>
+		<p>People from diverse companies are encouraged to participate. If you have any questions, for example regarding the scope of the event, contact the ELIXIR Industry Officer:<br /> Kathi Lauer<br /><a href="mailto:katharina.lauer@elixir-europe.org">katharina.lauer@elixir-europe.org</a></p>
+		<a href="{{ site.baseurl }}/images/BioHackathon_Industry_Flyer.pdf" target="_blank" class="button special">Industry flyer</a>
+		</div>
+		<div class="4u 12u$(medium)">
+			<p class="small line-height-1 mb-2 mt-3">&ldquo;It was an amazing experience...Two teams embraced our challenge to demonstrate the validity of edge computing. We reached our goal of connecting with the bioinformatics community and creating awareness for a new technology.	No doubt we will participate in the future.&rdquo;</p>
+				<p class="small font-italic line-height-1 muted-color">- Natalia Jimenez<br /> (Atos)</p>
+
+		</div>
 		<!-- <ul class="features">
 			<li class="feat">
 				<h3><i class="fas fa-industry"></i> Industry engagement</h3>
 				<p>Companies interested in submitting hacking projects should submit their project proposals via the Easy Chair Submission System. The projects will be evaluated alongside the academic project proposals by the programme committee. If you have any questions, for example regarding the scope of your project, contact Kathi Lauer (ELIXIR Industry Officer).</p>
-				<a href="{{ site.baseurl }}/images/BioHackathon_Industry_Flyer.pdf" class="button fit special">More info</a>				
+				<a href="{{ site.baseurl }}/images/BioHackathon_Industry_Flyer.pdf" class="button fit special">More info</a>
 				<a href="mailto:katharina.lauer@elixir-europe.org" class="button fit special">Contact</a>
 			</li>
 			<li class="feat">
@@ -154,7 +203,4 @@ layout: landing
 			</li>
 		</ul> -->
 	</div>
-	</br>
-	<a class="button special" href="{{ site.baseurl }}/ipdiscl.html">IP Disclaimer</a>
-
-</section>
+	</section>

@@ -1,6 +1,6 @@
---- 
-# Only the main Sass file needs front matter (the dashes are enough) 
---- 
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
 $baseurl: '{{ site.baseurl }}/images';
 @import 'libs/vars';
 @import 'libs/functions';
@@ -447,7 +447,7 @@ input[type="radio"] {
 	border-radius: 0;
 	width: 60%;
 	iframe {
-		width: 100%;			
+		width: 100%;
 		margin: 0 0 4em 0;
 	}
 }
@@ -636,7 +636,7 @@ ul {
 			height: 90%;
 			background: url(../images/logos/pistoia_alliance.png) center center no-repeat;
 			background-size: contain;
-		}		
+		}
 	}
 	&.actions {
 		cursor: default;
@@ -953,7 +953,7 @@ button,
 		'1');
 		border-radius: 0;
 		width: 40%;
-		img {	
+		img {
 			border-radius: 0;
 			width: 100%;
 		}
@@ -1295,7 +1295,7 @@ button,
 					text-transform: uppercase;
 					@include breakpoint(small) {
 						line-height: 3em;
-					}					
+					}
 				}
 			}
 		}
@@ -1350,7 +1350,7 @@ body.is-menu-visible {
 			border-bottom: none;
 		}
 		margin: 3px 0 0 2em;
-		height: 85%;		
+		height: 85%;
 		img {
 			padding: 0.2em;
 			width: auto;
@@ -1434,7 +1434,7 @@ body.is-menu-visible {
 			@include vendor('pointer-events',
 			'none');
 			opacity: 0;
-		}		
+		}
 	}
 }
 
@@ -1454,26 +1454,26 @@ body.is-menu-visible {
 	text-align: center;
 
 	.video {
-		position: fixed; 
-		z-index: -99; 
-		width: 100%; 
+		position: fixed;
+		z-index: -99;
+		width: 100%;
 		height: 100%;
 		opacity: 50%;
 		-moz-opacity: 0.5; /* Firefox and Mozilla browsers */
-		-webkit-opacity: 0.5; /* WebKit browser e.g. Safari */		
+		-webkit-opacity: 0.5; /* WebKit browser e.g. Safari */
 		filter: blur(2px);
 		-webkit-filter: blur(2px);
-	}	
+	}
 	.logo-ban {
 		// top: 0;
 		// position: absolute;
-		// text-align: center;	
+		// text-align: center;
 		.title {
 			// position: absolute;
 			// left: 0;
 			color: _palette(accent6, fg-bold);
 			// display: inline-block;
-			// position: relative;		
+			// position: relative;
 			h2 {
 				@include vendor('transform',
 				'scale(1)');
@@ -1487,14 +1487,14 @@ body.is-menu-visible {
 				margin-bottom: 0.5em;
 				position: relative;
 				z-index: 1;
-				color: _palette(fg);		
+				color: _palette(fg);
 			}
-	
+
 			img {
 				max-width: 30%;
 				padding: 1em;
 			}
-	
+
 			a {
 				text-decoration: none;
 			}
@@ -1569,7 +1569,7 @@ body.is-menu-visible {
 	}
 	// @include breakpoint(xlarge) {
 	// 	min-height: 50em;
-	// }	
+	// }
 	@include breakpoint(small) {
 		// @include padding(7em,
 		// 3em);
@@ -1774,7 +1774,7 @@ body.is-mobile {
 /* Landing */
 
 body.landing {
-	#page-wrapper {	
+	#page-wrapper {
 		// @include vendor('background-image',
 		// ('linear-gradient(top, rgba(0,0,0,0.55), rgba(0,0,0,0.75))',
 		// 'url("#{$baseurl}/venue_les_berges.jpg")'));
@@ -1783,7 +1783,7 @@ body.landing {
 		background-repeat: no-repeat;
 		background-size: cover;
 		padding-top: 0;
-	
+
 	}
 	#footer {
 		background-color: darken(transparentize(_palette(bg), 0.1), 8);
@@ -1836,4 +1836,30 @@ body.is-mobile {
 			display: none;
 		}
 	}
+}
+
+
+/* Utility styles not included in Bootstrap */
+// Bootstrap .align-middle doesn't always work.
+.vertical-align-middle {
+	position: relative;
+  top: 50%;
+	transform: translateY(-50%);
+}
+
+// Add extra space below bullet points
+.x-bottom-padding li {
+	padding-bottom: 0.5em;
+}
+
+ul {
+	margin-left: 1em;
+}
+
+.line-height-1 {
+	line-height: 1.5;
+}
+
+.muted-color {
+  color: _palette(fg-light);
 }
