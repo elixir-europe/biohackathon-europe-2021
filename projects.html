@@ -1,12 +1,17 @@
---- 
-layout: page 
+---
+layout: page
 title: Hacking projects
 ---
 <section id="hacking-projects">
     {% assign projectVersions = site.projects | sort: 'modified_date' %}
-    {% assign latestProjects = projectVersions.first %}    
-    <p>These are the selected hacking projects</p>
+    {% assign latestProjects = projectVersions.first %}
+    <p class="font-weight-bold">Call for proposals will open on 1 March!</p>
+    <p>Follow us on Twitter to keep up to date: </p>
     <ul>
+      <li><a href="https://twitter.com/biohackathoneu">@biohackathoneu</a></li>
+      <li><a href="https://twitter.com/hashtag/BioHackEU21">#BioHackEU21</a></li>
+    </ul>
+  <!--  <ul>
         {% for project in latestProjects.project_list %}
         <li>
             <a href="{{project.link}}"
@@ -16,4 +21,5 @@ title: Hacking projects
         </li>
         {% endfor %}
     </ul>
+   -->
 </section>
