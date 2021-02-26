@@ -1705,6 +1705,24 @@ body.is-loading {
 	}
 }
 
+.venue #main {
+	>header {
+		@include vendor('background-image',
+		('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))',
+		'url("#{$baseurl}/header-venue.jpg")'));
+	}
+}
+
+.about #main {
+	>header {
+		@include vendor('background-image',
+		('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))',
+		'url("#{$baseurl}/header-about.jpg")'));
+	}
+}
+
+
+
 body.is-mobile {
 	#main {
 		>header {
