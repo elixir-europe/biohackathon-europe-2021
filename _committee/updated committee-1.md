@@ -21,7 +21,7 @@ author: Ricardo
 | Wei Gu                     | ELIXIR-LU   | Advisor    |
 | Tarcisio Mendes            | ELIXIR-CH   | Advisor    | 
 | Tazaro Ohta                | External    | Advisor    | 
-| Sirarat Sarntivijai        | ELIXIR-HUB  | Advisor    | 
+| Sirarat Sarntivijai        | ELIXIR Hub  | Advisor    | 
 | Venkata Satagopam          | ELIXIR-LU   | Advisor    |
 
 
