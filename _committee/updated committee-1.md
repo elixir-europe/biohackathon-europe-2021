@@ -3,7 +3,7 @@ layout: default
 title: Committee
 author: Ricardo
 ---
-## Programme
+## Organising Committee
 
 |**NAME**|**INSTITUTE**|**Responsibility**|
 |:---------------------|:----------------:|:----------|
@@ -13,6 +13,11 @@ author: Ricardo
 | Martin Cook                | ELIXIR Hub  | Organiser  |
 | Erin Haskell               | ELIXIR Hub  | Organiser  |
 | Kathi Lauer                | ELIXIR Hub  | Organiser  |
+
+## Programme Committee
+
+|**NAME**|**INSTITUTE**|**Responsibility**|
+|:---------------------|:----------------:|:----------|
 | Eva Alloza                 | ELIXIR-ES   | Advisor    |
 | Jerven Bolleman            | ELIXIR-CH   | Advisor    |
 | Salvador Capella           | ELIXIR-ES   | Advisor    |
