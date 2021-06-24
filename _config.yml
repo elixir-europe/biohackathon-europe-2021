@@ -3,10 +3,10 @@
 
 # Site settings
 title: BioHackathon Europe
-description: 2020 November 9th - 13th, Campus La Mola
+description: Barcelona 8-12 November 2021
 owner: Elixir HUB # or company name
 first_published: 2021 # if migrating another site, the year of your first publish
-email: arcila@ebi.ac.uk
+email: webmaster@elixir-europe.org
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://elixir-europe.github.io/biohackathon-europe-2021/" # the base hostname & protocol for your site
 social:
