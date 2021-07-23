@@ -3,7 +3,7 @@ layout: page
 title: Hacking projects
 body_class: projects
 ---
-
+# Projects for 2021
 <section id="hacking-projects">
     {% assign projectVersions = site.projects | sort: 'modified_date' %}
     {% assign latestProjects = projectVersions.first %}
@@ -15,7 +15,6 @@ body_class: projects
         <th><strong>EasyChair Number</strong></th>
         <th><strong>Title</strong></th>
       </tr>
-
         {% for project in latestProjects.project_list %}
         <tr>
             <td>{{project.project_number}}</td>
@@ -24,6 +23,7 @@ body_class: projects
         </tr>
         {% endfor %}
     </table>
+
 <section>
 
 
