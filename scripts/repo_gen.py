@@ -57,8 +57,9 @@ PROJECT_DECISION = "Decision"
 PROJECT_PAPER = "paper"
 
 
-# Read the CSV file columns into variables, create an array of projects and
-# return it.
+# Create a list of dictionaries from the CSV file. Each dictionary represents a project,
+# with the keys being the CSV column names.
+#
 # Input: CSV file
 # Output: array of projects
 #
@@ -69,12 +70,14 @@ PROJECT_PAPER = "paper"
 # the loop counter was used. This was possible because all the projects in the
 # CSV were 'Accepted'.
 def load_all_projects():
+    # Initialise the projects list
     projects = []
 
     with open(PROJECTS_FILE) as pro_file:
         reader = csv.DictReader(pro_file, delimiter=',')
         line_count = 0
         accepted_count = 0
+        # Loop through the CSV rows and create a dictionary for each project
         for index, row in enumerate(reader):
             if line_count == 0:
                 print(f'Projects column names are {", ".join(row)}')
@@ -99,6 +102,7 @@ def load_all_projects():
                     link=project_link,
                     project_number=accepted_count,
                 )
+                # Add the current project dictionary to the projects list
                 projects.append(project)
 
             line_count += 1
@@ -106,7 +110,7 @@ def load_all_projects():
     return projects
 
 # Create the project directories and README files
-# Input: array for a project
+# Input: dictionary for a project
 # Output: project folder and README file
 def to_file(project):
 
