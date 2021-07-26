@@ -57,11 +57,10 @@ PROJECT_DECISION = "Decision"
 PROJECT_PAPER = "paper"
 
 
-# Create a list of dictionaries from the CSV file. Each dictionary represents a project,
-# with the keys being the CSV column names.
+# Create a list of dictionaries from the CSV file. Each dictionary represents a project.
 #
 # Input: CSV file
-# Output: array of projects
+# Output: list of projects
 #
 # NOTE: each project has two numbers: an arbitrary, sequential 'project_number'
 # and its number in EasyChair ('number' below).
@@ -86,6 +85,10 @@ def load_all_projects():
                 accepted_count += 1
                 project_link = PROJECTS_REPOSITORY.format(
                     number=accepted_count)
+                # Create a dictionary for the project. You may need to amend the key/value
+                # assignments below to reflect what columns are in the CSV file. If you do,
+                # don't forget to modify the to_file() function below to print out the fields
+                # that actually exist in the dictionary.
                 project = dict(
                     number=row.get(PROJECT_EVENBRITE),
                     authors=row.get(PROJECT_AUTHORS),
