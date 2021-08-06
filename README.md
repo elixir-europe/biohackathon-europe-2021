@@ -7,7 +7,7 @@ BioHackathon Europe brings people together from around the world to work on codi
 This year's event will take place 8 - 12 November 2021. See [the website](https://biohackathon-europe.org/index.html) for details.
 
 ## The 2021 BioHackathon projects
-You can see a list of projects on the [BioHackathon 2021 website](https://biohackathon-europe.org/index.html), and find the project code in the [BioHackathon 2021 repo](https://github.com/elixir-europe/biohackathon-projects-2021).
+You can see a list of projects on the [BioHackathon 2021 website](https://biohackathon-europe.org/projects.html), and find the project code in the [BioHackathon 2021 repo](https://github.com/elixir-europe/biohackathon-projects-2021).
 
 ## Previous BioHackathons
 For details of the past BioHackathons and their projects see the [ELIXIR Europe website](https://elixir-europe.org/events/biohackathon-europe).
