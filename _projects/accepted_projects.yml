@@ -1689,8 +1689,7 @@ project_list:
   number: '49'
   number_of_expected_hacking_days: Up to 4
   project_number: 30
-  title: Federated Learning and Machine Learning to power integrated diagnostics of
-    leukemias and lymphomas
+  title: Federated Learning and Machine Learning to power integrated diagnostics of breast cancer
 - abstract: 'A project description:
 
     Representation of structural variations (SVs) is one of the urgent issues for
