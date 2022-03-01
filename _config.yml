@@ -7,7 +7,7 @@ description: Barcelona 8-12 November 2021
 owner: Elixir HUB # or company name
 first_published: 2021 # if migrating another site, the year of your first publish
 email: webmaster@elixir-europe.org
-baseurl: "/biohackathon-europe-2021" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://elixir-europe.github.io/biohackathon-europe-2021/" # the base hostname & protocol for your site
 social:
   twitter: https://twitter.com/hashtag/BioHackEU21
